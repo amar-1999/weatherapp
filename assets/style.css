@@ -12,7 +12,7 @@ body {
   
   .card {
     background: #000000d0;
-    color: 'white';
+    color: white;
     padding: 2em;
     border-radius: 30px;
     width: 100%;
@@ -34,7 +34,7 @@ body {
     width: 44px;
     outline: none;
     background: #7c7c7c2b;
-    color: 'white';
+    color: white;
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }
@@ -79,7 +79,7 @@ body {
   .weather.loading:after {
     visibility: visible;
     content: "Loading...";
-    color: 'white';
+    color: white;
     position: absolute;
     top: 0;
     left: 20px;

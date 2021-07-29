@@ -1,7 +1,7 @@
 body {
     display: flex;
-    justify-content: right;
-    align-items: right;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -12,7 +12,7 @@ body {
   
   .card {
     background: #000000d0;
-    color: white;
+    color: 'white';
     padding: 2em;
     border-radius: 30px;
     width: 100%;
@@ -22,8 +22,8 @@ body {
   
   .search {
     display: flex;
-    align-items: right;
-    justify-content: right;
+    align-items: center;
+    justify-content: center;
   }
   
   button {
@@ -34,7 +34,7 @@ body {
     width: 44px;
     outline: none;
     background: #7c7c7c2b;
-    color: white;
+    color: 'white';
     cursor: pointer;
     transition: 0.2s ease-in-out;
   }
@@ -62,7 +62,7 @@ body {
   
   .flex {
     display: flex;
-    align-items: right;
+    align-items: center;
   }
   
   .description {
@@ -79,7 +79,7 @@ body {
   .weather.loading:after {
     visibility: visible;
     content: "Loading...";
-    color: white;
+    color: 'white';
     position: absolute;
     top: 0;
     left: 20px;
